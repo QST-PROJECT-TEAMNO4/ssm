@@ -1,4 +1,4 @@
-package ssm.entity;
+package com.qst.ssm.entity;
 
 import java.util.Date;
 

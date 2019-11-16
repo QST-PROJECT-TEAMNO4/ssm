@@ -1,7 +1,7 @@
-package ssm.dao;
+package com.qst.ssm.dao;
 
 import org.apache.ibatis.annotations.Select;
-import ssm.entity.Product;
+import com.qst.ssm.entity.Product;
 
 import java.util.List;
 

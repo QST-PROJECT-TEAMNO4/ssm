@@ -1,6 +1,6 @@
-package ssm.service;
+package com.qst.ssm.service;
 
-import ssm.entity.Product;
+import com.qst.ssm.entity.Product;
 
 import java.util.List;
 

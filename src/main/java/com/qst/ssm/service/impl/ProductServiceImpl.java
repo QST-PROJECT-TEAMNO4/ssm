@@ -1,13 +1,13 @@
-package ssm.service.impl;
+package com.qst.ssm.service.impl;
 
+import com.qst.ssm.dao.IProductDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import ssm.dao.IProductDao;
-import ssm.entity.Product;
-import ssm.service.IProductService;
+import com.qst.ssm.entity.Product;
+import com.qst.ssm.service.IProductService;
 
 import java.util.List;
-@Service
+@Service("productService")
 public class ProductServiceImpl implements IProductService {
     @Autowired
     private IProductDao productDao;
